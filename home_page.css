@@ -4,6 +4,17 @@
     border:border-box;
 }
 
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid grey;
+}
+
+.highlight{
+    text-decoration: none;
+}
 
 .highlight:hover{
     text-decoration: underline;
@@ -33,12 +44,17 @@
     width:100px;
     border-radius: 5px;
     background-color: rgb(125, 168, 246);
+    color: white;
+    font-weight: bold;
+    border: 2px solid transparent;
 }
+
 .welcome-text{
     margin-top: 100px;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-right: 30rem;
 }
 
 .menu{
@@ -46,4 +62,5 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-right: 30rem;
 }
