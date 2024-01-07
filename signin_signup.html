@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignIn/Register</title>
     <link rel="stylesheet" href="signin_signup.css">
+    <script src="signin_signup.js" defer></script>
 </head>
 <body style="background-color: #F6F7C4;">
     <header>
@@ -44,34 +45,5 @@
             <button class="sign-in border" style="color:black" id="signupBtn">Sign Up</button>
         </div>
     </form>
-
-
-    <script>
-
-        function homePage(){
-            window.location.href="home_page.html";
-        }
-
-
-        let signupBtn = document.getElementById("signupBtn");
-        let signinBtn = document.getElementById("signinBtn");
-        let nameField = document.getElementById("nameField");
-        let title = document.getElementById("title");
-        let form = document.getElementById("form");
-        let endLine= document.getElementById("endLine");
-
-        signinBtn.onclick = function(){
-            nameField.style.display="none";
-            form.style.maxHeight="500px";
-            title.innerText="Sign-In";
-            endLine.style.display="none";
-            return false;
-        }
-
-
-
-    </script>
-
-
 </body>
 </html>
