@@ -14,14 +14,16 @@
                 </div>
             </div>
             <div class="buttons" style="display: flex;">
-                <button class="sign-in border">SIGN IN</button>
+                <button class="sign-in border" onclick="signUp()">SIGN IN</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="sign-in border">REGISTER</button>
+                <button class="sign-in border" onclick="signUp()">REGISTER</button>
             </div>
         </div>
     </header>
-    <div class="content">
-        
-    </div>
+    <script>
+        function signUp(){
+            window.location.href="signin_signup.html";
+        }
+    </script>
 </body>
 </html>

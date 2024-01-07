@@ -4,6 +4,14 @@
     border:border-box;
 }
 
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid grey;
+}
+
 .nav-bar{
     background-color: #F6F6F6;
     height:60px;
@@ -18,7 +26,7 @@
 }
 
 .logo{
-    background-image: url("logo.JPG");
+    background-image: url("images/logo.JPG");
     background-size: cover;
     height: 60px;
     width:200px;
