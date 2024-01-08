@@ -15,5 +15,7 @@ signinBtn.onclick = function(){
     form.style.maxHeight="500px";
     title.innerText="Sign-In";
     endLine.style.display="none";
+    signinBtn.classList.remove("disable");
+    signupBtn.classList.add("disable");
     return false;
 }
