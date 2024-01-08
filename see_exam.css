@@ -1,7 +1,8 @@
 *{
-    font-family: Helvetica;
+    font-family: monospace;
     margin: 0;
     border:border-box;
+    font-size: large;
 }
 
 .border{
