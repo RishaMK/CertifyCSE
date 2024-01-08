@@ -67,6 +67,11 @@ box-shadow: -1px -1px 27px 3px rgba(255,255,255,1)
     align-items: center;
 }
 
+.text p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .menu{
     display: flex;
     justify-content: space-evenly;
