@@ -6,7 +6,7 @@
     <title>SEE exam</title>
     <link rel="stylesheet" href="see_exam.css">
 </head>
-<body style="background-color: #F6F7C4;">
+<body style="background-color: #0D1117;">
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
@@ -14,14 +14,21 @@
                 </div>
             </div>
             <div class="buttons" style="display: flex;">
-                <button class="sign-in border">SIGN IN</button>
+                <button class="sign-in border" onclick="homePage()">HOMEPAGE</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="sign-in border">REGISTER</button>
+                <button class="sign-in border" onclick="signUp()">SIGN IN</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="sign-in border" onclick="signUp()">REGISTER</button>
             </div>
         </div>
     </header>
-    <div class="content">
-        
-    </div>
+    <script>
+        function signUp(){
+            window.location.href="signin_signup.html";
+        }
+        function homePage(){
+            window.location.href="home_page.html";
+        }
+    </script>
 </body>
 </html>

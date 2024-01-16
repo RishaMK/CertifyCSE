@@ -1,0 +1,90 @@
+*{
+    font-family: monospace;
+    font-size: large;
+    margin: 0;
+    border:border-box;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid rgb(86, 84, 84);
+}
+
+.nav-bar{
+    background-color: #F6F6F6;
+    height:60px;
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+}
+
+.nav-bar .logo{
+    background-image: url("images/logo.JPG");
+    background-size: cover;
+    height: 60px;
+    width:200px;
+}
+
+.sign-in{
+    height: 40px;
+    width:100px;
+    border-radius: 5px;
+    background-color: rgb(125, 168, 246);
+    color: white;
+    font-weight: bold;
+}
+
+form .heading{
+    background-color: rgb(125, 168, 246);
+    height: 100px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(244, 247, 248);
+    height: 550px;
+    width: 400px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+}
+
+form .box{
+    padding-right: 25px;
+}
+
+
+form .box input{
+    background-color: rgb(221, 217, 231);
+    border: none;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+form .box i{
+    height: 50px;
+    width: 50px;
+}
+
+form .form-btns{
+    margin-top: 30px;
+}
+
+form .form-btns .disable{
+    background-color: rgb(191, 187, 187);
+    color:black;
+}

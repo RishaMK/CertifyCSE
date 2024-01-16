@@ -1,7 +1,16 @@
 *{
-    font-family: Helvetica;
+    font-family: monospace;
     margin: 0;
     border:border-box;
+    font-size: large;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid grey;
 }
 
 .nav-bar{
@@ -18,7 +27,7 @@
 }
 
 .logo{
-    background-image: url("logo.JPG");
+    background-image: url("images/logo.JPG");
     background-size: cover;
     height: 60px;
     width:200px;

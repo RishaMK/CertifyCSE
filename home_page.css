@@ -1,10 +1,13 @@
 *{
-    font-family: Helvetica;
+    font-family: monospace;
     margin: 0;
+    font-size: large;
     border:border-box;
 }
 body{
-background-color: #F6F7C4;
+/* background: linear-gradient(to bottom,rgb(37, 34, 41),rgb(56, 43, 122)); */
+background-color: #0D1117;
+background-attachment: fixed;
 }
 .border{
     border: 2px solid transparent;
@@ -12,6 +15,12 @@ background-color: #F6F7C4;
 
 .border:hover{
     border: 2px solid grey;
+}
+
+.glow:hover{
+    -webkit-box-shadow: -1px -1px 27px 3px rgba(255,255,255,1);
+-moz-box-shadow: -1px -1px 27px 3px rgba(255,255,255,1);
+box-shadow: -1px -1px 27px 3px rgba(255,255,255,1)
 }
 
 .highlight{
@@ -36,7 +45,7 @@ background-color: #F6F7C4;
 }
 
 .logo{
-    background-image: url("logo.JPG");
+    background-image: url("images/logo.JPG");
     background-size: cover;
     height: 60px;
     width:200px;
@@ -58,6 +67,11 @@ background-color: #F6F7C4;
     align-items: center;
 }
 
+.text p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .menu{
     display: flex;
     justify-content: space-evenly;
@@ -71,9 +85,26 @@ background-color: #F6F7C4;
     /* background-color: blueviolet; */
     text-align: center;
     justify-content: center;
-    border:2px solid transparent;
+    /* border:2px solid transparent; */
+    border-radius: 20px;
 }
 
-.box:hover{
-    border:2px solid black;
+
+.welcome-text h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 5px solid; */
+    animation: typing 5s steps(50) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }

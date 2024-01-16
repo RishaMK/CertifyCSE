@@ -6,7 +6,11 @@
     <title>Attendance</title>
     <link rel="stylesheet" href="attendance.css">
 </head>
+<<<<<<< HEAD
 <body>
+=======
+<body style="background-color: #0D1117;">
+>>>>>>> main
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
@@ -14,15 +18,18 @@
                 </div>
             </div>
             <div class="buttons" style="display: flex;">
-                <button class="sign-in border">SIGN IN</button>
+                <button class="sign-in border" onclick="homePage()">HOMEPAGE</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="sign-in border">REGISTER</button>
+                <button class="sign-in border" onclick="signUp()">SIGN IN</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="sign-in border" onclick="signUp()">REGISTER</button>
             </div>
         </div> 
 
         <!-- <h1 id="title">Please Fill the Form!</h1>
         <p id="description">To get Attendance hehe</p> -->
     </header>
+<<<<<<< HEAD
 
     
 <div class="container">
@@ -88,5 +95,15 @@
     </form>
 </div>
     
+=======
+    <script>
+        function signUp(){
+            window.location.href="signin_signup.html";
+        }
+        function homePage(){
+            window.location.href="home_page.html";
+        }
+    </script>
+>>>>>>> main
 </body>
 </html>

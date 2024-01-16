@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn/Register</title>
+    <link rel="stylesheet" href="signin_signup.css">
+    <script src="signin_signup.js" defer></script>
+</head>
+<body style="background-color: #0D1117;">
+    <header>
+
+        <div class="nav-bar">
+            <div class="logo"></div>
+            <div class="buttons" style="display: flex;">
+                <button class="sign-in border" onclick="homePage()">HOMEPAGE</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+    </header>
+
+    <form id="form">
+        <div class="heading">
+            <h1 style="padding-top: 25px;font-size: xxx-large;" id="title">Sign-Up</h1>
+        </div>
+        <div class="inputs" style="padding-top: 50px;">
+            <div class="box" id="nameField">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-btns">
+            <button class="sign-in border disable" id="signinBtn">Sign In</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="sign-in border" style="color:black" id="signupBtn">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
