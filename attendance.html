@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance</title>
     <link rel="stylesheet" href="attendance.css">
+    <!-- <script src="attendance.js"></script> -->
 </head>
-<<<<<<< HEAD
+
 <body>
-=======
-<body style="background-color: #0D1117;">
->>>>>>> main
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
                 <div class="logo">
                 </div>
             </div>
-            <div class="buttons" style="display: flex;">
+            <div class="buttons">
                 <button class="sign-in border" onclick="homePage()">HOMEPAGE</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <button class="sign-in border" onclick="signUp()">SIGN IN</button>
@@ -29,9 +27,7 @@
         <!-- <h1 id="title">Please Fill the Form!</h1>
         <p id="description">To get Attendance hehe</p> -->
     </header>
-<<<<<<< HEAD
 
-    
 <div class="container">
 
     <header class="header">
@@ -75,8 +71,17 @@
                     <option value="others" class="Reason"> Others</option>
                 </select>
             </label>
-            
+
+            <!-- <input type="text" id="EventName" name="EventName" placeholder="Enter event name" disabled required> -->
         </div>
+        
+        <div class="form-group" id="eventNameField">
+            <label for="EventName"> <b>Event Name: </b>
+                <input type="text" id="EventName" name="EventName" placeholder="Enter name of the event" required>
+            </label>
+        </div>
+            
+       
         <div class="form-group"><label for="from-to"> <b> From-to date : </b>
             <br>
             <b>From:  </b> <input id="from-date" type="date" required>
@@ -95,7 +100,6 @@
     </form>
 </div>
     
-=======
     <script>
         function signUp(){
             window.location.href="signin_signup.html";
@@ -104,6 +108,6 @@
             window.location.href="home_page.html";
         }
     </script>
->>>>>>> main
+
 </body>
 </html>

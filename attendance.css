@@ -43,8 +43,25 @@
     border: 2px solid transparent;
 }
 
+.container {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 900px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+}
+
 #title,#description{
     text-align:center;
+}
+
+.buttons{
+    display: flex;
 }
 html, body {
     max-width: 100%;
@@ -54,7 +71,8 @@ body{
     font-family: Poppins,sans-serif;
     width:100%;
     font-size:16px;
-    padding: 40px;
+    padding: 10px;
+    padding-top: 0;
     margin:0.5rem 0;
     height:100hv;
     background-color: #1b1b32;
@@ -78,14 +96,18 @@ body{
 
 }
 
+
 input[type="text"],input[type="file"],input[type="email"]{
     display: block;
     padding: 1px 2px;
 }
 label{
     color: white;
-    
-    
+     
+}
+
+#title{
+    font-size: 35px;
 }
 
 header{
@@ -101,12 +123,17 @@ input,select{
     min-height: 2em;
     border: none;
     color: white;
+
 }
+/* input:hover{
+    transform: scale(1.2);
+} */
 
 .Sem,.Reason{
     color: white;
     min-height: 2em;
 }
+
 input[type="date"]{
     /* display: block; */
     width:auto;
@@ -114,6 +141,7 @@ input[type="date"]{
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
+
 
 input[type="submit"] {
     display: block;
@@ -124,4 +152,32 @@ input[type="submit"] {
     background-color: #3b3b4f;
     border-color: white;
     min-width: 300px;
+    /* background: linear-gradient(90deg, transparent, #03e9f4);
+
+    animation-delay: .25s */
   }
+
+  input[type="text"]:hover,
+  input[type="file"]:hover,
+  input[type="email"]:hover,
+  select:hover {
+      border: 2px solid #3b3b4f; /* Change the color to your preference */
+      transform: scale(1.05); /* Increase the size on hover */
+      outline: none; /* Remove the default focus outline */
+      /* background-color: #f0f0f0; */
+  }
+
+    input[type="text"]:focus,
+    input[type="file"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+        border: 2px solid #3498db;
+
+    }
+
+  input[type="submit"]:hover {
+      border: 2px solid #3b3b4f; /* Change the color to your preference */
+      transform: scale(1.1); /* Increase the size on hover */
+  }
+
+ 
