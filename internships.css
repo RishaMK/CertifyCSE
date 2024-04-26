@@ -3,6 +3,7 @@
     font-size: large;
     margin: 0;
     /* border:border-box; */
+    transition: 0.3s;
 }
 
 .border{
